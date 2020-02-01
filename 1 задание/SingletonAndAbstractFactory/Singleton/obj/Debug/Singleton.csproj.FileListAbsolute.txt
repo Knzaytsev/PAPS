@@ -1,0 +1,6 @@
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\1 задание\SingletonAndAbstractFactory\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\1 задание\SingletonAndAbstractFactory\Singleton\bin\Debug\Singleton.exe
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\1 задание\SingletonAndAbstractFactory\Singleton\bin\Debug\Singleton.pdb
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\1 задание\SingletonAndAbstractFactory\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\1 задание\SingletonAndAbstractFactory\Singleton\obj\Debug\Singleton.exe
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\1 задание\SingletonAndAbstractFactory\Singleton\obj\Debug\Singleton.pdb

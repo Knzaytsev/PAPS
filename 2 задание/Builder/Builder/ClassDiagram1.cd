@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Builder.Program" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.SmartHomeBuilder">
+    <Position X="5.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAgAAAAQBAAAQAAAEAAABAAAAAAAA=</HashCode>
+      <FileName>SmartHomeBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Sensor" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ActuatingMechanism">
+    <Position X="0.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActuatingMechanism.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.OperatorPanel" Collapsed="true">
+    <Position X="3.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperatorPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.MultimediaSystem">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAQAAAAAABACAAAAAAAAiAAA=</HashCode>
+      <FileName>MultimediaSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ManagementController" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagementController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.NetworkDevice">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.SmartHome">
+    <Position X="3.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAEAAAAAAAEAAAAQAAAAACAAAAAAAABAAA=</HashCode>
+      <FileName>SmartHome.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ActuatingMechanism" />
+      <Property Name="OperatorPanel" />
+      <Property Name="Sensor" />
+      <Property Name="ManagementController" />
+      <Property Name="MultimediaSystem" />
+      <Property Name="NetworkDevice" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Builder.SmartHomeDirector">
+    <Position X="8.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>SmartHomeDirector.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="smartHomeBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Builder.SmartHomeBuilder1">
+    <Position X="5.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAAAAAAAAgAAAAQBAAAQAAAEAAABAAAAAAAA=</HashCode>
+      <FileName>SmartHome1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="smartHome" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Builder.ElectricMechanism">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ElectricMechanism.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Temperature" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Temperature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Illumination" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ullumination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.NetworkAdapter">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.Repeater">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repeater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ConcreteMultimediaSystem">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAQAAAAAABACAAAAAAAAgAAA=</HashCode>
+      <FileName>ConcreteMultimediaSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ConcreteOperatorPanel">
+    <Position X="5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteOperatorPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder.ConcreteManagementController">
+    <Position X="8" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteManagementController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

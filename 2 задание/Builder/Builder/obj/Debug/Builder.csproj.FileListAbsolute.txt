@@ -1,0 +1,6 @@
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\2 задание\Builder\Builder\obj\Debug\Builder.csprojAssemblyReference.cache
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\2 задание\Builder\Builder\bin\Debug\Builder.exe.config
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\2 задание\Builder\Builder\bin\Debug\Builder.exe
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\2 задание\Builder\Builder\bin\Debug\Builder.pdb
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\2 задание\Builder\Builder\obj\Debug\Builder.exe
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\2 задание\Builder\Builder\obj\Debug\Builder.pdb
