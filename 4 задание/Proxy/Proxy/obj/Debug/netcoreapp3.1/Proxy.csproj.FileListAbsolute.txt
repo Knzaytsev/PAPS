@@ -1,0 +1,11 @@
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\bin\Debug\netcoreapp3.1\Proxy.exe
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\bin\Debug\netcoreapp3.1\Proxy.deps.json
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\bin\Debug\netcoreapp3.1\Proxy.runtimeconfig.json
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\bin\Debug\netcoreapp3.1\Proxy.runtimeconfig.dev.json
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\bin\Debug\netcoreapp3.1\Proxy.dll
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\bin\Debug\netcoreapp3.1\Proxy.pdb
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\obj\Debug\netcoreapp3.1\Proxy.csprojAssemblyReference.cache
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\obj\Debug\netcoreapp3.1\Proxy.AssemblyInfoInputs.cache
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\obj\Debug\netcoreapp3.1\Proxy.AssemblyInfo.cs
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\obj\Debug\netcoreapp3.1\Proxy.dll
+C:\Users\Tuccc\Desktop\Учёба\3 курс\Проектирование архитектуры программных систем\Практические работы\4 задание\Proxy\Proxy\obj\Debug\netcoreapp3.1\Proxy.pdb
