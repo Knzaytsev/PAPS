@@ -1,0 +1,10 @@
+@startuml SequenceDiagram
+-> Bank : Notify()
+activate Bank
+Bank -> account1 : ShowStatus()
+activate account1
+Bank -> account2 : ShowStatus()
+activate account2
+Bank -> account3 : ShowStatus()
+activate account3
+@enduml

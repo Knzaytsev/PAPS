@@ -1,0 +1,32 @@
+@startuml ClassDiagram
+skinparam classAttributeIconSize 0
+interface IObservable {
+    + void Add(observer: IObserver)
+    + void Delete(observer: IObserver)
+    + void Notify()
+}
+
+interface IObserver {
+    + string Name
+    + float Money
+    + void ShowStatus()
+}
+
+class Bank {
+    + void Add(observer: IObserver)
+    + void Delete(observer: IObserver)
+    + void Notify()
+    - List<IObserver> observers
+}
+
+class BankAccount {
+    + string Name
+    + float Money
+    + void ShowStatus()
+    + BankAccount(name: string, money: float)
+}
+
+IObservable <|-- Bank
+IObserver <|-- BankAccount
+Bank o--> BankAccount
+@enduml
