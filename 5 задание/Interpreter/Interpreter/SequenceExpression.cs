@@ -6,7 +6,6 @@ namespace Interpreter
 {
     class SequenceExpression : IExpression
     {
-        private string name;
         private IExpression expression1;
         private IExpression expression2;
 
@@ -16,7 +15,7 @@ namespace Interpreter
             this.expression2 = expression2;
         }
 
-            public string Interpret(Context context)
+        public string Interpret(Context context)
         {
             return expression1.Interpret(context) + " & " + expression2.Interpret(context);
         }

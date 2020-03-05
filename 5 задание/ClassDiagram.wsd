@@ -1,0 +1,48 @@
+@startuml ClassDiagramInterpreter
+interface IExpression {
+    + string Interpret(context: Context)
+}
+
+class Constant {
+    - string constant;
+    + Constant(constant: string)
+    + string Interpret(context: Context)
+}
+
+class RepetitionExpression {
+    - string IExpression expression
+    - int cnt
+    + RepetitionExpression(expression: IExpression, cnt: int)
+    + string Interpret(context: Context)
+}
+
+class SequenceExpression {
+    - IExpression expression1
+    - IExpression expression2
+    + SequenceExpression(expression1: IExpression, expression2: IExpression)
+    + string Interpret(context: Context)
+}
+
+class AlternationExpression {
+    - IExpression expression1
+    - IExpression expression2
+    + AlternationExpression(expression1: IExpression, expression2: IExpression)
+    + string Interpret(context: Context)
+}
+
+class Context {
+    + string Output
+    + Context()
+}
+
+class Program {
+    + void Main()
+}
+
+Constant --|> IExpression
+RepetitionExpression --|> IExpression
+SequenceExpression --|> IExpression
+AlternationExpression --|> IExpression
+Program -> Context
+Program -> IExpression
+@enduml

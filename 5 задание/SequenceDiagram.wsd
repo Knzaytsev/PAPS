@@ -1,0 +1,28 @@
+@startuml SequenceDiagramInterpreter
+activate Program
+Program -> SequenceExpression : Interpret(context)
+activate SequenceExpression
+SequenceExpression -> Constant : Interpret(context)
+activate Constant
+SequenceExpression <-- Constant : string
+deactivate Constant
+SequenceExpression -> AlternationExpression : Interpret(context)
+activate AlternationExpression
+AlternationExpression -> Constant : Interpret(context)
+activate Constant
+AlternationExpression <-- Constant : string
+deactivate Constant
+AlternationExpression -> RepetitionExpression : Interpret(context)
+activate RepetitionExpression
+RepetitionExpression -> Constant : Interpret(context)
+activate Constant
+RepetitionExpression <-- Constant : string
+deactivate Constant
+AlternationExpression <-- RepetitionExpression : string
+deactivate RepetitionExpression
+SequenceExpression <-- AlternationExpression : string
+deactivate AlternationExpression
+Program <-- SequenceExpression : string
+deactivate SequenceExpression
+
+@enduml

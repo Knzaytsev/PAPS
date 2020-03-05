@@ -6,7 +6,6 @@ namespace Interpreter
 {
     class AlternationExpression : IExpression
     {
-        private string name;
         private IExpression expression1;
         private IExpression expression2;
 
